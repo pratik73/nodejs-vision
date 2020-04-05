@@ -4,6 +4,24 @@
 
 [1]: https://www.npmjs.com/package/@google-cloud/nodejs-vision?activeTab=versions
 
+## [2.0.0](https://www.github.com/googleapis/nodejs-vision/compare/v1.11.0...v2.0.0) (2020-04-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* The library now supports Node.js v10+. The last version to support Node.js v8 is tagged legacy-8 on NPM.
+
+New feature: methods with pagination now support async iteration.
+
+* fix tests & linter
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>
+Co-authored-by: Xiaozhen Liu <xiaozhenliu@google.com>
+
+### Features
+
+* drop node8 support, support for async iterators ([#568](https://www.github.com/googleapis/nodejs-vision/issues/568)) ([e2dccd0](https://www.github.com/googleapis/nodejs-vision/commit/e2dccd02d20ed82ed679fff629b5a4aab47b39b6))
+
 ## [1.11.0](https://www.github.com/googleapis/nodejs-vision/compare/v1.10.0...v1.11.0) (2020-03-11)
 
 
